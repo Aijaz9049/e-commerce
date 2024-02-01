@@ -1,0 +1,1137 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 18% 18% 18% 18% 18%;
+    gap: 10px;
+    /* column-gap: 10px; */
+    justify-content: center;
+    /* row-gap: 7px; */
+    /* position: relative;
+    left: 10px; */
+}
+
+.btn {
+    display: flex;
+    justify-content: space-around;
+    /* position: relative;
+    bottom: 10px; */
+}
+
+/* .rate img {
+    height: 30px;
+    width: 70px;
+} */
+
+/* .rate {
+    display: flex;
+    position: relative;
+    bottom: 10px;
+    mix-blend-mode: darken;
+    margin-left: 10px;
+
+}
+
+.rate h5 {
+    position: absolute;
+    bottom: 2px;
+    left: 90px;
+} */
+
+.img img {
+    height: auto;
+    width: 100%;
+    border-radius: 6px;
+
+
+}
+
+.card {
+    border-radius: 6px;
+    border: 1px solid #7a7a7a;
+}
+
+.title p {
+    font-size: 12px;
+    margin-left: 10px;
+    /* position: relative; */
+    /* left: 13px; */
+}
+
+h4 {
+    font-size: 15px;
+    margin-left: 10px;
+
+    /* position: relative; */
+    /* left: 13px; */
+}
+
+.btn p {
+    font-size: 18px;
+    /* margin-left: -15px; */
+
+    /* position: relative;
+    left: 13px;
+    top: -20px; */
+}
+
+.b {
+    height: 30px;
+    width: 80px;
+    font-size: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 6px;
+}
+
+/* .b:hover {
+    background-color: rgb(5, 5, 167);
+} */
+
+.c h1 {
+    text-align: center;
+}
+
+.d {
+    background-color: #ddd;
+    width: 100%;
+}
+
+.dd {
+    background-color: #ddd;
+    width: 100%;
+}
+
+.c {
+    background-image: url(https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/banner-images/web-banner.png?format=webp&w=1366&dpr=1.0);
+    height: 460px;
+    /* width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.title img {
+    height: 40px;
+    width: 90px;
+    mix-blend-mode: darken;
+    /* position: relative;
+    left: 10px;
+    top: -8px; */
+}
+
+/* .title h5{
+    position: relative;
+    top: -40px;
+    left: 120px;
+} */
+
+
+.d h1 {
+    text-align: center;
+}
+
+.promo {
+    height: 200px;
+    width: 100%;
+    mix-blend-mode: difference;
+}
+
+.promo img {
+    height: 60px;
+    width: 100%;
+    mix-blend-mode: difference;
+}
+
+.footer {
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    height: 280px;
+    width: 100%;
+    color: white;
+}
+
+.smedia {
+    height: 280px;
+    width: 100%;
+    margin-left: 20px;
+}
+
+.smedia h3 {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+.address p {
+    color: white;
+    text-align: center;
+}
+
+span b {
+    color: red;
+}
+
+.socialm {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    gap: 20px;
+    color: white;
+}
+
+.fa-instagram:hover {
+    color: red;
+}
+
+.fa-facebook:hover {
+    color: red;
+}
+
+.fa-square-x-twitter:hover {
+    color: red;
+}
+
+.fa-square-threads:hover {
+    color: red;
+}
+
+.fa-youtube:hover {
+    color: red;
+}
+
+.info h2 {
+    font-family: 'Salsa', cursive;
+    font-size: 35px;
+    text-align: center;
+}
+
+.info h3 {
+    margin-left: 5%;
+
+}
+
+.mail {
+    height: 30px;
+    width: 300px;
+    border-radius: 25px;
+    text-align: center;
+    outline: 0;
+    border: 1px solid grey;
+}
+
+.info button {
+    height: 30px;
+    width: 300px;
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    text-align: center;
+    outline: 0;
+    border: 1px solid grey;
+}
+
+
+.sbutton:hover {
+    background-color: red;
+    cursor: pointer;
+    color: white;
+}
+
+.title {
+    color: white;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.title1 {
+    color: black;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.pr {
+    text-align: center;
+}
+
+.inf {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 15%;
+}
+
+
+/* 
+@media (max-width:2560px) {
+    .grid1 {
+        display: grid;
+        grid-template-columns: repeat(6, 15%);
+
+    }
+
+    .c {
+        background-image: url(https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/banner-images/web-banner.png?format=webp&w=1366&dpr=1.0);
+        height: 700px;
+        background-size: cover;
+    }
+
+    .pr h1 {
+        font-size: 80px;
+    }
+
+    .pr br {
+        display: none;
+    }
+
+    .card {
+        border-radius: 10px;
+        border: 1px solid #7a7a7a;
+
+    }
+
+    .rate {
+        display: block;
+        font-size: 24px;
+    }
+
+    .title1 p {
+        font-size: 30px;
+    }
+
+    .btn {
+        display: flex;
+        justify-content: space-evenly;
+        position: relative;
+    }
+
+    .btn p {
+        font-size: 30px;
+        color: black;
+
+    }
+
+    .btn .b {
+        width: 140px;
+        height: 55px;
+        border: 1px solid #7a7a7a;
+        border-radius: 10px;
+        color: white;
+        font-size: 18px;
+        background-color: black;
+        cursor: pointer;
+    }
+
+    .promo {
+        height: 255px;
+        background-image: url(https://images.bewakoof.com/uploads/grid/app/Desktop-Strip-3-1672040129.jpg);
+        background-size: cover;
+    }
+
+    .info h2 {
+        font-family: 'Salsa', cursive;
+        font-size: 65px;
+        margin-left: 34px;
+        text-align: center;
+    }
+    
+    .info h3 {
+        margin-left: 5%;
+        font-size: 35px;
+    
+    }
+    
+    .mail {
+        display: block;
+        height: 55px;
+        width: 500px;
+        border-radius: 25px;
+        text-align: center;
+        background-color: white;
+        color: white;
+        outline: 0;
+        font-size: 30px;
+        border: 1px solid grey;
+    }
+    
+    .info button {
+        height: 55px;
+        width: 500px;
+        background-color: white;
+        color: black;
+        border-radius: 25px;
+        text-align: center;
+        outline: 0;
+        border: 1px solid grey;
+    }
+    .sbutton h4{
+        font-size: 30px;
+
+    }
+    .socialm{
+        font-size: 100px;
+        display: flex;
+        gap: 60px;
+    }
+    .smedia h3{
+        font-size: 60px;
+    }
+    .address p{
+        font-size: 30px;
+    }
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        height: 550px;
+    }
+    .info{
+        width: 30%;
+
+    }
+    .smedia{
+        width: 60%;
+
+    }
+} */
+
+
+
+/* 
+
+@media (max-width:1440px) {
+    .grid1 {
+        display: grid;
+        grid-template-columns: repeat(5, 18%);
+
+    }
+
+    .c {
+        background-image: url(https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/banner-images/web-banner.png?format=webp&w=1366&dpr=1.0);
+        height: 300px;
+        background-size: cover;
+    }
+
+    .pr h1 {
+        font-size: 40px;
+    }
+
+    .pr br {
+        display: none;
+    }
+
+    .card {
+        border-radius: 10px;
+        border: 1px solid #7a7a7a;
+
+    }
+
+    .title1 h4 {
+        display: none;
+    }
+
+    .rate {
+        display: block;
+        font-size: 18px;
+    }
+
+    .title1 p {
+        font-size: 14px;
+    }
+
+    .btn {
+        display: flex;
+        justify-content: space-evenly;
+        position: relative;
+        bottom: 2px;
+    }
+
+    .btn p {
+        font-size: 20px;
+        color: black;
+
+    }
+
+    .btn .b {
+        width: 80px;
+        height: 28px;
+        border: 1px solid #7a7a7a;
+        border-radius: 2px;
+        color: white;
+        font-size: 10px;
+        background-color: black;
+        cursor: pointer;
+    }
+
+    .promo {
+        height: 85px;
+        background-image: url(https://images.bewakoof.com/uploads/grid/app/Desktop-Strip-3-1672040129.jpg);
+        background-size: cover;
+    }
+
+    .info h2 {
+        font-family: 'Salsa', cursive;
+        font-size: 25px;
+        margin-left: 34px;
+        text-align: center;
+    }
+    
+    .info h3 {
+        margin-left: 5%;
+    
+    }
+    
+    .mail {
+        display: block;
+        height: 30px;
+        width: 200px;
+        border-radius: 25px;
+        text-align: center;
+        background-color: white;
+        color: white;
+        outline: 0;
+        font-size: 18px;
+        border: 1px solid grey;
+        font-size: 18px;
+    }
+    
+    .info button {
+        height: 30px;
+        width: 200px;
+        background-color: white;
+        color: black;
+        border-radius: 25px;
+        text-align: center;
+        outline: 0;
+        border: 1px solid grey;
+
+    }
+    .socialm{
+        font-size: 50px;
+    }
+    .smedia h3{
+        font-size: 25px;
+    }
+    .address p{
+        font-size: 15px;
+    }
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        height: 300px;
+    }
+    .info{
+        width: 30%;
+
+    }
+    .smedia{
+        width: 60%;
+    }
+    .sbutton h4{
+        font-size: 18px;
+    }
+} */
+
+
+
+@media (max-width:1024px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(4, 23%);
+
+    }
+
+    .c {
+        background-image: url(https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/banner-images/web-banner.png?format=webp&w=1366&dpr=1.0);
+        height: 300px;
+        background-size: cover;
+    }
+
+    .pr h1 {
+        font-size: 40px;
+    }
+
+    .pr br {
+        display: none;
+    }
+
+    .card {
+        border-radius: 10px;
+        border: 1px solid #7a7a7a;
+        /* background-color: black; */
+
+    }
+
+    .title1 h4 {
+        display: none;
+    }
+
+    .rate {
+        display: block;
+    }
+
+    .title p {
+        font-size: 14px;
+    }
+
+    .btn {
+        display: flex;
+        justify-content: space-evenly;
+        /* position: relative;
+        bottom: 2px; */
+    }
+
+    .btn p {
+        font-size: 20px;
+        color: black;
+
+    }
+
+    .btn .b {
+        width: 80px;
+        height: 28px;
+        border: 1px solid #7a7a7a;
+        border-radius: 7px;
+        color: white;
+        font-size: 10px;
+        background-color: black;
+        cursor: pointer;
+    }
+
+    .promo {
+        height: 85px;
+        background-image: url(https://images.bewakoof.com/uploads/grid/app/Desktop-Strip-3-1672040129.jpg);
+        background-size: cover;
+    }
+
+    .info h2 {
+        font-family: 'Salsa', cursive;
+        font-size: 25px;
+        margin-left: 34px;
+        text-align: center;
+    }
+    
+    .info h3 {
+        margin-left: 5%;
+    
+    }
+    
+    .mail {
+        display: block;
+        height: 30px;
+        width: 200px;
+        border-radius: 25px;
+        text-align: center;
+        background-color: white;
+        color: white;
+        outline: 0;
+        font-size: 18px;
+        border: 1px solid grey;
+        font-size: 18px;
+    }
+    
+    .info button {
+        height: 30px;
+        width: 200px;
+        background-color: white;
+        color: black;
+        border-radius: 25px;
+        text-align: center;
+        outline: 0;
+        border: 1px solid grey;
+
+    }
+    .socialm{
+        font-size: 50px;
+    }
+    .smedia h3{
+        font-size: 25px;
+    }
+    .address p{
+        font-size: 15px;
+    }
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        height: 300px;
+    }
+    .info{
+        width: 30%;
+
+    }
+    .smedia{
+        width: 60%;
+    }
+    .sbutton h4{
+        font-size: 18px;
+    }
+}
+
+
+
+@media (max-width:768px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 30%);
+
+    }
+
+    .c {
+        background-image: url(https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/banner-images/web-banner.png?format=webp&w=1366&dpr=1.0);
+        height: 300px;
+        background-size: cover;
+    }
+
+    .pr h1 {
+        font-size: 40px;
+    }
+
+    .pr br {
+        display: none;
+    }
+
+    .card {
+        border-radius: 10px;
+        border: 1px solid #7a7a7a;
+        /* background-color: black; */
+
+    }
+
+    .title1 h4 {
+        display: none;
+    }
+
+    .rate {
+        display: block;
+    }
+
+    .title p {
+        font-size: 14px;
+    }
+
+    .btn {
+        display: flex;
+        justify-content: space-evenly;
+        /* position: relative;
+        bottom: 2px; */
+    }
+
+    .btn p {
+        font-size: 20px;
+        color: black;
+
+    }
+
+    .btn .b {
+        width: 80px;
+        height: 28px;
+        border: 1px solid #7a7a7a;
+        border-radius: 7px;
+        color: white;
+        font-size: 10px;
+        background-color: black;
+        cursor: pointer;
+    }
+
+    .promo {
+        height: 85px;
+        background-image: url(https://images.bewakoof.com/uploads/grid/app/Desktop-Strip-3-1672040129.jpg);
+        background-size: cover;
+    }
+
+    .info h2 {
+        font-family: 'Salsa', cursive;
+        font-size: 25px;
+        margin-left: 34px;
+        text-align: center;
+    }
+    
+    .info h3 {
+        margin-left: 5%;
+    
+    }
+    
+    .mail {
+        display: block;
+        height: 30px;
+        width: 200px;
+        border-radius: 25px;
+        text-align: center;
+        background-color: white;
+        color: white;
+        outline: 0;
+        border: 1px solid grey;
+    }
+    
+    .info button {
+        height: 30px;
+        width: 200px;
+        background-color: white;
+        color: black;
+        border-radius: 25px;
+        text-align: center;
+        outline: 0;
+        border: 1px solid grey;
+    }
+    .socialm{
+        font-size: 50px;
+    }
+    .smedia h3{
+        font-size: 25px;
+    }
+    .address p{
+        font-size: 15px;
+    }
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        height: 300px;
+    }
+    .info{
+        width: 30%;
+
+    }
+    .smedia{
+        width: 60%;
+    }
+    .sbutton h4{
+        font-size: 15px;
+    }
+}
+
+
+
+
+
+
+@media (max-width:425px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 45%);
+    }
+
+    .c {
+        background-image: url(https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/banner-images/web-banner.png?format=webp&w=1366&dpr=1.0);
+        height: 200px;
+        background-size: cover;
+    }
+
+    .pr h1 {
+        font-size: 20px;
+    }
+
+    .pr br {
+        display: none;
+    }
+
+    .card {
+        border-radius: 6px;
+        border: 1px solid grey;
+        /* background-color: black; */
+
+    }
+
+    .title1 h4 {
+        display: none;
+    }
+
+    .rate {
+        display: none;
+    }
+
+    .title p {
+        font-size: 11px;
+    }
+
+    .btn {
+        display: flex;
+        justify-content: space-evenly;
+        /* position: relative;
+        bottom: 2px; */
+    }
+
+    .btn p {
+        font-size: 14px;
+        color: black;
+
+    }
+
+    .btn .b {
+        width: 70px;
+        height: 22px;
+        border: 1px solid #7a7a7a;
+        border-radius: 4px;
+        color: white;
+        font-size: 9px;
+        background-color: black;
+        cursor: pointer;
+    }
+
+    .info {
+        display: none;
+    }
+
+    .smedia {
+        height: 140px;
+        width: 90%;
+    }
+
+    .footer {
+        height: 180px;
+    }
+
+    .smedia h3 {
+        font-size: 20px;
+        text-align: center;
+        color: white;
+    }
+
+    .address p {
+        color: white;
+        text-align: center;
+        font-size: 10px;
+    }
+
+    span b {
+        color: red;
+    }
+
+    .socialm {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        gap: 10px;
+        color: white;
+    }
+
+    .promo {
+        height: 60px;
+        background-image: url(https://images.bewakoof.com/uploads/grid/app/Desktop-Strip-3-1672040129.jpg);
+        background-size: cover;
+    }
+}
+
+/* 
+@media (max-width:375px) {
+    .grid1 {
+        display: grid;
+        grid-template-columns: repeat(2, 45%);
+    }
+
+    .c {
+        background-image: url(https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/banner-images/web-banner.png?format=webp&w=1366&dpr=1.0);
+        height: 200px;
+        background-size: cover;
+    }
+
+    .pr h1 {
+        font-size: 20px;
+    }
+
+    .pr br {
+        display: none;
+    }
+
+    .card {
+        border-radius: 6px;
+        border: 1px solid #7a7a7a;
+
+    }
+
+    .title1 h4 {
+        display: none;
+    }
+
+    .rate {
+        display: none;
+    }
+
+    .title1 p {
+        font-size: 10px;
+    }
+
+    .btn {
+        display: flex;
+        justify-content: space-evenly;
+        position: relative;
+        bottom: 2px;
+    }
+
+    .btn p {
+        font-size: 14px;
+        color: black;
+
+    }
+
+    .btn .b {
+        width: 70px;
+        height: 22px;
+        border: 1px solid #7a7a7a;
+        border-radius: 4px;
+        color: white;
+        font-size: 9px;
+        background-color: black;
+        cursor: pointer;
+    }
+
+    .info {
+        display: none;
+    }
+
+    .smedia {
+        height: 180px;
+        width: 90%;
+    }
+
+    .footer {
+        height: 180px;
+    }
+
+    .smedia h3 {
+        font-size: 20px;
+        text-align: center;
+        color: white;
+    }
+
+    .address p {
+        color: white;
+        text-align: center;
+        font-size: 10px;
+    }
+
+    span b {
+        color: red;
+    }
+
+    .socialm {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        gap: 10px;
+        color: white;
+    }
+
+    .promo {
+        height: 60px;
+        background-image: url(https://images.bewakoof.com/uploads/grid/app/Desktop-Strip-3-1672040129.jpg);
+        background-size: cover;
+    }
+}
+ */
+/* 
+@media (max-width:320px) {
+    .grid1 {
+        display: grid;
+        grid-template-columns: repeat(2, 45%);
+    }
+
+    .c {
+        background-image: url(https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/banner-images/web-banner.png?format=webp&w=1366&dpr=1.0);
+        height: 200px;
+        background-size: cover;
+    }
+
+    .pr h1 {
+        font-size: 20px;
+    }
+
+    .pr br {
+        display: none;
+    }
+
+    .card {
+        border-radius: 6px;
+        border: 1px solid #7a7a7a;
+
+    }
+
+    .title1 h4 {
+        display: none;
+    }
+
+    .rate {
+        display: none;
+    }
+
+    .title1 p {
+        font-size: 10px;
+    }
+
+    .btn {
+        display: flex;
+        justify-content: space-evenly;
+        position: relative;
+        bottom: 2px;
+    }
+
+    .btn p {
+        font-size: 12px;
+        color: black;
+
+    }
+
+    .btn .b {
+        width: 50px;
+        height: 18px;
+        border: 1px solid #7a7a7a;
+        border-radius: 2px;
+        color: white;
+        font-size: 7.5px;
+        background-color: black;
+        cursor: pointer;
+    }
+
+    .info {
+        display: none;
+    }
+
+    .smedia {
+        height: 200px;
+        width: 88%;
+    }
+
+    .footer {
+        height: 200px;
+    }
+
+    .smedia h3 {
+        font-size: 20px;
+        text-align: center;
+        color: white;
+    }
+
+    .address p {
+        color: white;
+        text-align: center;
+        font-size: 10px;
+    }
+
+    span b {
+        color: red;
+    }
+
+    .socialm {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        gap: 10px;
+        color: white;
+    }
+
+    .promo {
+        height: 60px;
+        background-image: url(https://images.bewakoof.com/uploads/grid/app/Desktop-Strip-3-1672040129.jpg);
+        background-size: cover;
+    }
+} */
